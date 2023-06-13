@@ -1,0 +1,100 @@
+.背景画像{
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-size:cover
+}
+
+.最短{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.カウンセリング{
+    border-radius: 100px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
+
+    .Flexbox{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    }
+    
+.menu{
+    color:black;
+    text-decoration: none;
+}
+
+.項目{
+text-decoration: none;
+    color: black;
+}
+
+.こちら{
+    border-radius: 100px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
+
+.間隔{
+    margin:10px 200px;
+}
+
+.資料{
+    border-radius: 100px;
+    padding: 15px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.ビデオ{
+    margin-bottom: 16px;
+    width: 75%;
+}
+
+.特記事項{
+    color:#A2A2A4;
+}
+
+.ビデオ{
+    margin-bottom: 16px;
+    width: 50%;
+}
+.parent {
+  display: flex;
+  justify-content: center; /* 子要素を中央に揃える設定 */
+  background-color: orange;
+   gap: 20px; /* 子要素間の余白を 20pxに設定 */
+   color: white;
+}
+.アイコン:hover {
+    opacity: .8;
+}
+.menu:hover {
+    opacity: .8;
+}
+.カウンセリング:hover {
+    opacity: .8;
+}
+.こちら:hover {
+    opacity: .8;
+}
+.資料:hover {
+    opacity: .8;
+}
+
+/* ここに共通の記述 */
+ 
+@media screen and (min-width:481px) {
+	/* ここにパソコン版だけの記述 */
+}
+ 
+@media screen and (max-width:480px) {
+	/* ここにスマホ版だけの記述 */
+}
