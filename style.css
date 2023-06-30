@@ -607,12 +607,6 @@ main {
 }
 
 @media screen and (max-width: 767px) {
-.FirstView__main-image--sp {
-    display: block;
-}
-}
-
-@media screen and (max-width: 767px) {
 .FirstView__container {
     margin-top: -45vw;
 }
@@ -804,12 +798,6 @@ main {
     width: auto;
 }
 
-@media screen and (min-width: 768px) {
-    .FirstView__main-image--sp {
-    display: none;
-}
-}
-
 .About__title h2>span {
     font-family: 'Lato',sans-serif;
     /* font-size: 38px; */
@@ -821,5 +809,18 @@ main {
     /* width: 75%; */
 }
 }
+
+.FirstView__main-image--sp {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+.FirstView__main-image--sp {
+    display: block;
+}
+
+    
+
+
 
 
